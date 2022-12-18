@@ -71,8 +71,6 @@ addButton.addEventListener("click", function () {
 // Remove from list
 const removeButton = document.getElementById("remove");
 removeButton.addEventListener("click", function () {
-    const li = list.children;
-
     list.removeChild(list.lastChild);
 });
 

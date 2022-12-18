@@ -32,7 +32,6 @@ imgSwap.addEventListener("click", function(){
     else{
         imgSwap.src = "Images/gigachad.jpg";
         imgSwap.classList.toggle("js");
-        rep += 1;
         console.log(rep);
     }
 })
